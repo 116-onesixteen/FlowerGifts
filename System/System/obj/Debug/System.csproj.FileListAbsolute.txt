@@ -1,0 +1,11 @@
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\bin\Debug\System.exe.config
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\bin\Debug\System.exe
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\bin\Debug\System.pdb
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\obj\Debug\System.csprojAssemblyReference.cache
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\obj\Debug\System.Dashboard.resources
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\obj\Debug\System.Form1.resources
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\obj\Debug\System.Properties.Resources.resources
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\obj\Debug\System.csproj.GenerateResource.cache
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\obj\Debug\System.csproj.CoreCompileInputs.cache
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\obj\Debug\System.exe
+C:\Users\Clayyy\Documents\GitHub\FlowerGifts\System\System\obj\Debug\System.pdb
