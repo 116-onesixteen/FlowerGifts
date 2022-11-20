@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Items-Addnew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items-Addnew.Designer.cs">
+      <DependentUpon>Items-Addnew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items-edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items-edit.Designer.cs">
+      <DependentUpon>Items-edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items-restock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items-restock.Designer.cs">
+      <DependentUpon>Items-restock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items-View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items-View.Designer.cs">
+      <DependentUpon>Items-View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items.Designer.cs">
+      <DependentUpon>Items.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +96,33 @@
     <Compile Include="Reset.Designer.cs">
       <DependentUpon>Reset.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sales-Stockout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales-Stockout.Designer.cs">
+      <DependentUpon>Sales-Stockout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Items-Addnew.resx">
+      <DependentUpon>Items-Addnew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items-edit.resx">
+      <DependentUpon>Items-edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items-restock.resx">
+      <DependentUpon>Items-restock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items-View.resx">
+      <DependentUpon>Items-View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items.resx">
+      <DependentUpon>Items.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +141,12 @@
     </Compile>
     <EmbeddedResource Include="Reset.resx">
       <DependentUpon>Reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales-Stockout.resx">
+      <DependentUpon>Sales-Stockout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,6 +181,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\go-back-arrow %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\out-of-stock %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-document.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
