@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace System
 {
-    public partial class Sales : Form
+    public partial class Form1 : Form
     {
-        public Sales()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
