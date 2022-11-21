@@ -50,5 +50,17 @@ namespace System
 
 
         }
+
+        private void loginbutton_Click(object sender, EventArgs e)
+        {
+            Dashboard c = new Dashboard();
+            c.Show();
+
+
+
+
+
+
+        }
     }
 }

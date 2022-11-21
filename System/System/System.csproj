@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Items-Addnew.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,8 +94,32 @@
     <Compile Include="Login2.Designer.cs">
       <DependentUpon>Login2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile_Edit.Designer.cs">
+      <DependentUpon>Profile_Edit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation.Designer.cs">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReserveButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReserveButton.Designer.cs">
+      <DependentUpon>ReserveButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reset.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +138,9 @@
     <Compile Include="Sales.Designer.cs">
       <DependentUpon>Sales.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Items-Addnew.resx">
       <DependentUpon>Items-Addnew.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +162,12 @@
     <EmbeddedResource Include="Login2.resx">
       <DependentUpon>Login2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile_Edit.resx">
+      <DependentUpon>Profile_Edit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -139,6 +178,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReserveButton.resx">
+      <DependentUpon>ReserveButton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reset.resx">
       <DependentUpon>Reset.cs</DependentUpon>
     </EmbeddedResource>
@@ -214,6 +259,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\new-document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\done.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\299109369_471163045018643_9070599325995222754_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\299109369_471163045018643_9070599325995222754_n %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-bag %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flower %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planner.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

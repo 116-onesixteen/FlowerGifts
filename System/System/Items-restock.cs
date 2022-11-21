@@ -21,5 +21,28 @@ namespace System
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            Dashboard c = new Dashboard();
+            c.Show();
+
+
+
+
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Items d = new Items();
+            d.Show();
+
+
+
+
+
+        }
     }
 }

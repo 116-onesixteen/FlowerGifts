@@ -21,5 +21,12 @@ namespace System
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Items f = new Items();
+            f.Show();
+
+        }
     }
 }
